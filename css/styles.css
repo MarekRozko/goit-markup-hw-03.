@@ -330,13 +330,17 @@ html {
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.gallery-list .gallery-item {
+.gallery-item .frame {
   border: 1px solid #eeeeee;
 }
-.gallery-item .subtitle {
+.gallery-item img {
+  display: block;
+}
+
+.gallery-item .subtitle-gallery {
   padding: 20px 24px 4px 24px;
 }
-.gallery-item .text {
+.gallery-item .text-gallery {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 20px;
@@ -347,14 +351,14 @@ html {
 .gallery-item:nth-child(3n) {
   margin-right: 0;
 }
-.gallery-list .subtitle {
+.gallery-list .subtitle-gallery {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.gallery-list .text {
+.gallery-list .text-gallery {
   font-size: 16px;
   line-height: 1.9;
 }
